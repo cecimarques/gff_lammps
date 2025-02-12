@@ -1,0 +1,929 @@
+  HW     OW     HW      1   109.500    627.600   ; For TIP4F Water - wj 1/98
+  HW     OW     LP      1    54.750    418.400   ; For TIP4F Water - wj 1/98
+  OU     U      OU      1   180.000   1255.200   ; J Phys Chem 97, 5685 (1993)
+  HC     C*     CW      1   126.800    292.880   ; 
+  HC     C*     CB      1   126.800    292.880   ; 
+  HC     CS     CW      1   126.800    292.880   ; 
+  HC     CS     CB      1   126.800    292.880   ; 
+  HA     CA     CW      1   126.900    292.880   ; wlj - pyrrole
+  HC     C=     CW      1   122.000    292.880   ; wlj
+  HA     CW     CA      1   130.700    292.880   ; wlj
+  HA     CW     C=      1   130.700    292.880   ; wlj
+  HA     CW     NA      1   121.600    292.880   ; wlj
+  CT     CW     NA      1   121.600    585.760   ; wlj
+  C!     CW     NA      1   121.600    585.760   ; wlj
+  CT     CW     OS      1   121.600    585.760   ; wlj
+  C!     CW     OS      1   121.600    585.760   ; wlj
+  CA     CW     NA      1   121.600    585.760   ; wlj
+  HA     CW     CV      1   130.700    292.880   ; wlj - imidazole
+  HA     CV     CW      1   128.200    292.880   ; wlj
+  HC     CT     CZ      1   108.500    292.880   ; wlj
+  CT     CT     CR      1   114.000    527.184   ; 
+  CT     CT     CZ      1   112.700    488.273   ; wlj
+  CT     CZ     CZ      1   180.000   1255.200   ; do 11/98 - JPOC, 9, 191(1996)
+  CA     CZ     CZ      1   180.000   1338.880   ; wlj
+  HC     CZ     CZ      1   180.000    937.216   ; do 1/99  - JPOC, 9, 191(1996)
+  CA     CA     CZ      1   120.000    585.760   ; wlj
+  CA     CA     CR      1   120.000    527.184   ; 
+  CA     CA     CX      1   120.000    711.280   ; 
+  CA     CR     NB      1   111.000    585.760   ; wlj
+  CT     CZ     NZ      1   180.000   1255.200   ; wlj
+  N2     CZ     NZ      1   180.000   1255.200   ; wlj
+  CA     CZ     NZ      1   180.000   1255.200   ; wlj
+  CT     CX     NA      1   121.600    585.760   ; jtr - copy from CT-CW-NA for HIP
+  HA     CX     CX      1   130.700    292.880   ; jtr - copy from HA-CW-CV for HIP
+  CX     CX     NA      1   106.300    585.760   ; jtr - copy from CV-CW-NA for HIP
+  CX     NA     CR      1   109.800    585.760   ; jtr - copy from CW-NA-CR for HIP
+  C3     C      N       1   116.600    585.760   ; ACET(OL)        BENEDETTI
+  C3     C      O       1   120.400    669.440   ; ACET(OL)
+  C3     C      O_2     1   120.400    669.440   ; ACET(OL)
+  C3     C      O_3     1   120.400    669.440   ; ACET(OL)
+  C3     C_2    O_2     1   120.400    669.440   ; ACET(OL)
+  C3     C_3    O2      1   117.000    585.760   ; GLU(OL)          SCH JPC 79,2379
+  CA     C      CA      1   120.000    711.280   ; TYR(OL)         GELIN
+  CA     C_2    CA      1   120.000    711.280   ; TYR(OL)         GELIN
+  CA     C      OH      1   120.000    585.760   ; TYR(OL)        GELIN
+  CA     CA     O       1   120.000    585.760   ; 
+  CA     CA     OH      1   120.000    585.760   ; 
+  CA     CA     SH      1   120.000    585.760   ; wlj
+  CA     CA     OS      1   120.000    585.760   ; wlj
+  CM     CM     OS      1   123.000    585.760   ; wlj
+  C=     CM     OS      1   123.000    585.760   ; wlj
+  CM     CM     OH      1   123.000    585.760   ; wlj
+  C=     CM     OH      1   123.000    585.760   ; wlj
+  CB     C      NA      1   111.300    585.760   ; GUA
+  CB     C_2    NA      1   111.300    585.760   ; GUA
+  CB     C      O       1   128.800    669.440   ; GUA
+  CB     C      O_2     1   128.800    669.440   ; GUA
+  CB     C      O_3     1   128.800    669.440   ; GUA
+  CB     C_2    O_2     1   128.800    669.440   ; GUA
+  CB     C      N       1   111.300    585.760   ; wlj
+  CS     C      O       1   128.200    669.440   ; wj
+  CS     C      O_2     1   128.200    669.440   ; wj
+  CS     C      O_3     1   128.200    669.440   ; wj
+  CS     C_2    O_2     1   128.200    669.440   ; wj
+  CM     C      NA      1   114.100    585.760   ; THY
+  CM     C_2    NA      1   114.100    585.760   ; THY
+  CM     C      O       1   125.300    669.440   ; THY
+  CM     C      O_2     1   125.300    669.440   ; THY
+  CM     C      O_3     1   125.300    669.440   ; THY
+  CM     C_2    O_2     1   125.300    669.440   ; THY
+  CM     C      C       1   117.200    669.440   ; (JP 1-6-91)
+  CM     C      C_2     1   117.200    669.440   ; (JP 1-6-91)
+  CM     C      C_3     1   117.200    669.440   ; (JP 1-6-91)
+  CM     C_2    C       1   117.200    669.440   ; (JP 1-6-91)
+  CM     C_2    C_2     1   117.200    669.440   ; (JP 1-6-91)
+  CM     C_2    C_3     1   117.200    669.440   ; (JP 1-6-91)
+  CM     C      OH      1   108.000    585.760   ; 
+  C=     C      O       1   124.000    669.440   ; wlj
+  C=     C      O_2     1   124.000    669.440   ; wlj
+  C=     C      O_3     1   124.000    669.440   ; wlj
+  C=     C_2    O_2     1   124.000    669.440   ; wlj
+  C=     C      OH      1   108.000    585.760   ; 
+  C=     C      HC      1   116.000    669.440   ; wlj
+  C=     C_2    HC      1   116.000    669.440   ; wlj
+  CT     C      N       1   116.600    585.760   ; 
+  CT_2   C      N       1   116.600    585.760   ; 
+  CA     C      N       1   115.500    585.760   ; wlj 8/97 benzamide
+  CM     C      N       1   115.500    585.760   ; wlj
+  CT     C      O       1   120.400    669.440   ; 
+  CT     C      O_2     1   120.400    669.440   ; 
+  CT     C      O_3     1   120.400    669.440   ; 
+  CT     C_2    O_2     1   120.400    669.440   ; 
+  CT_2   C      O       1   120.400    669.440   ; 
+  CT_2   C      O_2     1   120.400    669.440   ; 
+  CT_2   C      O_3     1   120.400    669.440   ; 
+  CT_2   C_2    O_2     1   120.400    669.440   ; 4
+  CA     C      O       1   120.400    669.440   ; wlj
+  CA     C      O_2     1   120.400    669.440   ; wlj
+  CA     C      O_3     1   120.400    669.440   ; wlj
+  CA     C_2    O_2     1   120.400    669.440   ; wlj
+  CT     NO     ON      1   117.500    669.440   ; wlj  nitro
+  CA     NO     ON      1   117.500    669.440   ; wlj  nitro
+  CT     CT     NO      1   111.100    527.184   ; wlj  nitro
+  HC     CT     NO      1   105.000    292.880   ; wlj  nitro
+  CA     CA     NO      1   120.000    711.280   ; wlj  nitro
+  HC     C      N       1   114.000    334.720   ; wlj  
+  HC     C      OS      1   115.000    334.720   ; -idem-
+  HC     C_2    OS      1   115.000    334.720   ; -idem-
+  HC     C      OH      1   115.000    334.720   ; -idem-
+  O      C      HC      1   123.000    292.880   ; wlj
+  O_2    C      HC      1   123.000    292.880   ; wlj
+  O_3    C      HC      1   123.000    292.880   ; wlj
+  O_2    C_2    HC      1   123.000    292.880   ; wlj
+  NC     C      HC      1   122.000    292.880   ; wlj
+  NC     C_2    HC      1   122.000    292.880   ; wlj
+  CT     C      OH      1   108.000    585.760   ; RCOOH  wlj 2/15/95
+  CT_2   C      OH      1   108.000    585.760   ; 
+  CT     C      CT      1   116.000    585.760   ; wlj 7/96
+  CT     C_2    CT      1   116.000    585.760   ; wlj 7/96
+  CT     C      CA      1   116.000    585.760   ; wlj
+  CT     C_2    CA      1   116.000    585.760   ; wlj
+  C=     C      CT      1   116.000    585.760   ; wlj
+  C=     C_2    CT      1   116.000    585.760   ; wlj
+  CT     C_3    O2      1   117.000    585.760   ; GLU(OL)     SCH JPC 79,2379
+  CT_2   C_3    O2      1   117.000    585.760   ; GLU(OL)     SCH JPC 79,2379
+  CT     CT     Cl      1   109.800    577.392   ; wlj - from MM2
+  C      CT     Cl      1   109.800    577.392   ; wlj
+  C      CT_2   Cl      1   109.800    577.392   ; 
+  CA     CA     Cl      1   120.000    627.600   ; 
+  CM     CM     Cl      1   121.500    627.600   ; 
+  Cl     CM     HC      1   114.000    502.080   ; 
+  Cl     CT     Cl      1   111.700    652.704   ; 
+  HC     CT     Cl      1   107.600    426.768   ; 
+  CT     CT     Br      1   110.000    577.392   ; 
+  C      CT     Br      1   109.800    577.392   ; 
+  C_2    CT     Br      1   109.800    577.392   ; 
+  C_3    CT     Br      1   109.800    577.392   ; 
+  CT     C      Cl      1   109.000    627.600   ; 
+  CT     C_2    Cl      1   109.000    627.600   ; wlj
+  CT     C      Br      1   109.000    627.600   ; wlj
+  CT     C_2    Br      1   109.000    627.600   ; wlj
+  O      C      Cl      1   119.000    627.600   ; wlj
+  O_2    C      Cl      1   119.000    627.600   ; wlj
+  O_3    C      Cl      1   119.000    627.600   ; wlj
+  O_2    C_2    Cl      1   119.000    627.600   ; wlj
+  O      C      Br      1   119.000    627.600   ; wlj
+  O_2    C      Br      1   119.000    627.600   ; wlj
+  O_3    C      Br      1   119.000    627.600   ; wlj
+  O_2    C_2    Br      1   119.000    627.600   ; wlj
+  CA     CA     Br      1   120.000    627.600   ; wlj
+  CM     CM     Br      1   120.000    627.600   ; wlj
+  Br     CM     HC      1   114.000    502.080   ; wlj
+  Br     CT     Br      1   111.700    652.704   ; wlj
+  HC     CT     Br      1   107.600    426.768   ; wlj
+  CA     CA     I       1   120.000    627.600   ; wlj
+  CA     CA     F       1   120.000    669.440   ; wlj
+  CM     CM     F       1   121.500    669.440   ; wlj
+  C      CM     F       1   121.500    669.440   ; wlj
+  F      CM     HC      1   112.000    418.400   ; wlj
+  F      CM     F       1   108.000    669.440   ; wlj
+  F      C      O       1   121.000    669.440   ; wlj
+  F      C      O_2     1   121.000    669.440   ; wlj
+  F      C      O_3     1   121.000    669.440   ; wlj
+  F      C_2    O_2     1   121.000    669.440   ; wlj
+  F      C      CT      1   111.000    669.440   ; wlj
+  F      C_2    CT      1   111.000    669.440   ; wlj
+  N      C      O       1   122.900    669.440   ; AA(OL)
+  N      C      O_2     1   122.900    669.440   ; AA(OL)
+  N      C      O_3     1   122.900    669.440   ; AA(OL)
+  N      C_2    O_2     1   122.900    669.440   ; AA(OL)
+  N      C      N       1   114.200    585.760   ; copy from above for Urea (jtr 5-14-91)
+  N      C_2    N       1   114.200    585.760   ; copy from above for Urea (jtr 5-14-91)
+  N*     C      NA      1   115.400    585.760   ; URA
+  N*     C_2    NA      1   115.400    585.760   ; URA
+  N*     C      NC      1   118.600    585.760   ; CYT
+  N*     C_2    NC      1   118.600    585.760   ; CYT
+  NA     C      NA      1   118.600    585.760   ; copy from above for CytH+ (jtr 5-14-91)
+  NA     C_2    NA      1   118.600    585.760   ; copy from above for CytH+ (jtr 5-14-91)
+  N*     C      O       1   120.900    669.440   ; URA,CYT
+  N*     C      O_2     1   120.900    669.440   ; URA,CYT
+  N*     C      O_3     1   120.900    669.440   ; URA,CYT
+  N*     C_2    O_2     1   120.900    669.440   ; URA,CYT
+  NA     C      O       1   120.600    669.440   ; URA(2),GUA
+  NA     C      O_2     1   120.600    669.440   ; URA(2),GUA
+  NA     C      O_3     1   120.600    669.440   ; URA(2),GUA
+  NA     C_2    O_2     1   120.600    669.440   ; URA(2),GUA
+  NC     C      O       1   122.500    669.440   ; CYT
+  NC     C      O_2     1   122.500    669.440   ; CYT
+  NC     C      O_3     1   122.500    669.440   ; CYT
+  NC     C_2    O_2     1   122.500    669.440   ; CYT
+  NC     C      NA      1   118.600    585.760   ; 
+  NC     C_2    NA      1   118.600    585.760   ; 
+  NA     CM     H4      1   119.100    292.880   ; 
+  N      CA     HA      1   119.100    292.880   ; wlj
+  ON     NO     ON      1   125.000    669.440   ; wlj  nitro
+  O_3    C      OH      1   121.000    669.440   ; RCOOH  wlj 2/15/95
+  O2     C_3    O2      1   126.000    669.440   ; GLU(OL)      SCH JPC 79,2379
+  CB     C*     CT      1   128.600    585.760   ; TRP(OL)
+  CB     C*     CW      1   106.400    711.280   ; TRP(OL)
+  CT     C*     CW      1   125.000    585.760   ; TRP(OL)
+  CB     CS     CT      1   128.600    585.760   ; 
+  CB     CS     CW      1   106.400    711.280   ; 
+  CT     CS     CW      1   125.000    585.760   ; TRP(OL)
+  CT     CT     NT      1   109.470    470.281   ; wlj - MM3 based - JACS 112, 8314 (90)
+  C3     CT     NT      1   109.470    470.281   ; wlj - MM3 based - JACS 112, 8314 (90)
+  CT     CT_2   NT      1   109.470    470.281   ;
+  C      CA     CA      1   120.000    711.280   ; TYR(OL)
+  C_2    CA     CA      1   120.000    711.280   ; TYR(OL)
+  C_3    CA     CA      1   120.000    711.280   ; TYR(OL)
+  C      CA     HA      1   120.000    292.880   ; 
+  C_2    CA     HA      1   120.000    292.880   ; 
+  C_3    CA     HA      1   120.000    292.880   ; 
+  CA     CA     CA      1   120.000    527.184   ; PHE(OL)
+  CA     C!     CA      1   120.000    527.184   ; wlj
+  CA     C!     C!      1   120.000    527.184   ; wlj
+  CA     CA     C!      1   120.000    527.184   ; wlj
+  CA     C!     CR      1   120.000    527.184   ; wlj
+  CA     C!     CS      1   120.000    527.184   ; wlj
+  CA     C!     CW      1   120.000    527.184   ; wlj
+  CA     C!     CU      1   120.000    527.184   ; wlj
+  CA     C!     CV      1   120.000    527.184   ; wlj
+  CA     CA     CB      1   120.000    527.184   ;  TRP(OL)
+  CA     CA     CN      1   120.000    711.280   ; TRP(OL)
+  CA     CA     CM      1   124.000    585.760   ; wlj/mp
+  CA     CM     CT      1   119.700    711.280   ; wlj/mp
+  CA     CM     C=      1   117.000    711.280   ; 
+  CA     CA     CT      1   120.000    585.760   ; PHE(OL)
+  CA     CA     NT      1   120.100    585.760   ; wlj/rr anilines
+  CA     CA     HA      1   120.000    292.880   ; 
+  C!     CA     HA      1   120.000    292.880   ; wlj
+  CT     NC     CQ      1   118.600    585.760   ; 
+  CT     NC     NZ      1   120.000    585.760   ; wlj azide
+  NC     NZ     NZ      1   180.000    836.800   ; wlj azide
+  CT     CT     NC      1   109.000    543.920   ; wlj azide
+  NC     CA     HA      1   116.000    292.880   ; wlj 12/96 based on pyridine
+  CA     CA     NC      1   124.000    585.760   ; wlj        -idem-
+  CA     C!     NC      1   124.000    585.760   ; wlj        -idem- 
+  C!     CA     NC      1   124.000    585.760   ; wlj        -idem- 
+  C!     C!     NC      1   124.000    585.760   ; wlj        -idem-  
+  CA     NC     CA      1   117.000    585.760   ; wlj        -idem-  
+  CA     NC     C!      1   117.000    585.760   ; wlj        -idem-  
+  CA     NC     CY      1   125.800    585.760   ; wlj
+  CA     CA     CW      1   107.400    585.760   ; wlj  1/97 based on pyrrole
+  CV     NA     H       1   120.000    292.880   ; 
+  CW     NA     CW      1   109.800    585.760   ; wlj       -idem-  
+  CW     NA     CT      1   125.800    585.760   ;   
+  CV     CW     NA      1   106.300    585.760   ; wlj  1/97 based on imidazole
+  CV     CW     N       1   106.300    585.760   ; wlj imidazole
+  CW     CV     NB      1   111.000    585.760   ; wlj       -idem-
+  CW     NA     CR      1   109.800    585.760   ; wlj       -idem-
+  CB     NA     CR      1   109.800    585.760   ; wlj
+  CW     C=     C=      1   106.000    292.880   ; wlj
+  CA     NA     CK      1   109.800    585.760   ; wlj
+  NC     CA     CT      1   116.000    585.760   ; wlj
+  NC     CQ     CT      1   115.500    585.760   ; wlj
+  NC     CQ     O       1   122.500    669.440   ; 
+  NB     CV     CT      1   124.500    585.760   ; wlj
+  CA     CV     NB      1   111.000    585.760   ; wlj
+  CA     NC     NC      1   117.000    585.760   ; wlj  pyridazine
+  CT     NC     NC      1   117.000    585.760   ; wlj  azo
+  OS     CW     CS      1   110.600    585.760   ; wlj  
+  OS     CW     CA      1   110.600    585.760   ; wlj  
+  OS     CW     C=      1   110.000    585.760   ; wlj  furan
+  CW     OS     CW      1   106.500    585.760   ; wlj  furan
+  CW     OS     CB      1   106.500    585.760   ; wlj  furan
+  CR     OS     CB      1   106.500    585.760   ; wlj  furan
+  OS     CW     HA      1   113.400    292.880   ; wlj  furan
+  S      CW     HA      1   113.400    292.880   ; wlj
+  S      CR     CA      1   111.000    585.760   ; wlj
+  S      CR     HA      1   113.400    292.880   ; wlj
+  S      CW     CV      1   111.000    585.760   ; wlj
+  S      CW     CS      1   111.000    585.760   ; wlj
+  S      CW     N       1   115.000    585.760   ; 
+  NA     CW     CS      1   107.700    585.760   ; wj/nm
+  CW     CS     CS      1   107.300    585.760   ; -idem-
+  CW     CS     HA      1   125.700    292.880   ; -idem-
+  CW     CS     C!      1   125.700    585.760   ; -idem-
+  CS     CW     C!      1   132.100    585.760   ; -idem-
+  CS     CS     C!      1   127.500    585.760   ; -idem-
+  CS     CW     HA      1   132.100    292.880   ; -idem-
+  CS     CW     CT      1   132.100    585.760   ; -idem-
+  CS     CW     CA      1   132.100    585.760   ; -idem-
+  CS     CS     HA      1   127.500    292.880   ; -idem-
+  CU     NB     NA      1   104.100    585.760   ; -idem-
+  CW     NB     NA      1   104.100    585.760   ; -idem-
+  NB     CU     HA      1   118.900    292.880   ; -idem-
+  NB     CU     CA      1   111.900    585.760   ; -idem-
+  NB     CU     CT      1   118.900    585.760   ; -idem-
+  NB     CW     CT      1   118.900    585.760   ; -idem-
+  NB     CW     S       1   115.000    585.760   ; 
+  CU     CS     CW      1   103.800    585.760   ; -idem-
+  CW     CS     CW      1   103.800    585.760   ; -idem-
+  NB     CU     CS      1   111.900    585.760   ; -idem-
+  NB     CW     CS      1   111.900    585.760   ; -idem-
+  CA     CU     HA      1   128.600    292.880   ; -idem-
+  CU     CA     HA      1   128.200    292.880   ; -idem-
+  CU     CA     CW      1   103.800    585.760   ; -idem-
+  CU     NB     OS      1   105.300    585.760   ; -idem-
+  NB     NA     CW      1   113.100    468.608   ; -idem-
+  CB     NA     NB      1   113.100    468.608   ; -idem-
+  CR     NA     CT      1   125.800    585.760   ; 
+  CR     NA     NB      1   113.100    468.608   ; -idem-
+  NB     NA     H       1   118.400    468.608   ; -idem-
+  NB     NA     CA      1   118.400    585.760   ; -idem-
+  NB     NA     CT      1   118.400    585.760   ; -idem-
+  CW     OS     NB      1   108.900    585.760   ; -idem-
+  NB     CR     OS      1   115.000    585.760   ; -idem-
+  NB     CR     S       1   115.000    585.760   ; -idem-
+  CR     OS     CW      1   104.000    585.760   ; -idem-
+  CV     CW     OS      1   108.000    585.760   ; -idem-
+  HA     CR     OS      1   117.000    292.880   ; -idem-
+  OS     CM     HC      1   114.500    292.880   ; 
+  CB     CA     HA      1   120.000    292.880   ; 
+  CB     CA     N2      1   123.500    585.760   ; ADE
+  CB     CA     NC      1   117.300    585.760   ; ADE
+  CM     CA     N2      1   120.100    585.760   ; 
+  CA     CA     N2      1   120.100    585.760   ; wlj
+  CM     CA     NC      1   121.500    585.760   ; 
+  CM     CA     NA      1   121.500    585.760   ; copy from above for CytH+ (jtr 5-14-91)
+  CN     CA     HA      1   120.000    292.880   ; 
+  NY     CA     NY      1   111.800    585.760   ; jtr: neutral ARG
+  NZ     CA     NY      1   124.100    585.760   ; jtr: neutral ARG
+  CA     NZ     H       1   113.000    292.880   ; jtr: neutral ARG
+  CA     NZ     H3      1   113.000    292.880   ; jtr: neutral ARG
+  CA     NY     H       1   112.500    418.400   ; jtr: neutral ARG
+  CA     NY     H3      1   112.500    418.400   ; jtr: neutral ARG
+  CA     NY     CT      1   120.500    418.400   ; jtr: neutral ARG
+  H      NY     H       1   106.400    364.845   ; jtr: neutral ARG
+  H3     NY     H3      1   106.400    364.845   ; jtr: neutral ARG
+  CT     NY     H       1   109.500    292.880   ; jtr: neutral ARG
+  CT     NY     H3      1   109.500    292.880   ; jtr: neutral ARG
+  CT     CT     NY      1   111.200    669.440   ; jtr: neutral ARG
+  HC     CT     NY      1   109.500    292.880   ; jtr: neutral ARG
+  N2     CA     N2      1   120.000    585.760   ; ARG(OL)
+  N2     CA     NA      1   116.000    585.760   ; GUA
+  N2     CA     NC      1   119.300    585.760   ; ADE,GUA
+  N2     CQ     NC      1   119.300    585.760   ; wlj    
+  N2     CQ     N       1   116.000    585.760   ; wlj
+  NA     CA     NC      1   123.300    585.760   ; GUA
+  C      CB     CB      1   119.200    711.280   ; GUA
+  C_2    CB     CB      1   119.200    711.280   ; GUA
+  C_3    CB     CB      1   119.200    711.280   ; GUA
+  C      CB     NB      1   130.000    585.760   ; GUA
+  C_2    CB     NB      1   130.000    585.760   ; GUA
+  C_3    CB     NB      1   130.000    585.760   ; GUA
+  N      CQ     NC      1   123.300    585.760   ; wlj
+  C      CS     CW      1   130.000    585.760   ; wj
+  C_2    CS     CW      1   130.000    585.760   ; wj
+  C_3    CS     CW      1   130.000    585.760   ; wj
+  C      CB     CW      1   130.000    585.760   ; wj
+  C_2    CB     CW      1   130.000    585.760   ; wj
+  C_3    CB     CW      1   130.000    585.760   ; wj
+  C*     CB     CA      1   134.900    711.280   ; TRP(OL)
+  CA     CB     CA      1   134.900    711.280   ; TRP(OL)
+  C*     CB     CN      1   108.800    711.280   ; TRP(OL)
+  CS     CB     CA      1   134.900    711.280   ;  
+  CS     CB     CN      1   108.800    711.280   ;  
+  CA     CB     CB      1   117.300    711.280   ; ADE
+  CA     CB     CN      1   116.200    711.280   ;  TRP
+  CA     CB     NB      1   132.400    585.760   ; ADE
+  CB     CB     N*      1   106.200    585.760   ; GUA,ADE
+  CB     CB     NA      1   106.200    585.760   ; wlj
+  CS     CR     NA      1   106.200    585.760   ; wj
+  CR     CS     CW      1   110.400    585.760   ; wj
+  CB     CB     NC      1   127.700    585.760   ; GUA,ADE
+  CB     CB     N       1   127.700    585.760   ; wj
+  CS     CR     NC      1   127.700    585.760   ; wj
+  N*     CB     NC      1   126.200    585.760   ; GUA,ADE
+  NA     CB     NC      1   126.200    585.760   ; wlj
+  NB     CB     N       1   126.200    585.760   ; wj
+  NB     CR     N       1   126.200    585.760   ; wj
+  NA     CR     NC      1   126.200    585.760   ; wj
+  CT     CW     CV      1   130.700    585.760   ; jtr: HID CB-CG-CD2
+  CT     CV     CW      1   130.700    585.760   ; jtr: HIE CB-CG-CD2
+  CT     CX     CX      1   130.700    585.760   ; jtr: HIP CB-CG-CD2
+  CT     CW     CW      1   120.000    585.760   ; 
+  CW     CW     NA      1   120.000    585.760   ; 
+  CA     CA     NA      1   108.700    585.760   ; TRP(OL)
+  N*     CK     NB      1   113.900    585.760   ; 
+  NA     CK     NB      1   113.900    585.760   ; wlj
+  NA     CK     H5      1   123.050    292.880   ; 
+  N*     CK     H5      1   123.050    292.880   ; 
+  NB     CK     H5      1   123.050    292.880   ; 
+  C      CM     C3      1   119.700    711.280   ; THY
+  C_2    CM     C3      1   119.700    711.280   ; THY
+  C_3    CM     C3      1   119.700    711.280   ; THY
+  C      CM     CM      1   120.700    711.280   ; 
+  C_2    CM     CM      1   120.700    711.280   ; 
+  C_3    CM     CM      1   120.700    711.280   ; 
+  C      CM     CT      1   119.700    585.760   ; 
+  C_2    CM     CT      1   119.700    585.760   ; 
+  C_3    CM     CT      1   119.700    585.760   ; 
+  C      CA     CT      1   119.700    585.760   ; wlj
+  C_2    CA     CT      1   119.700    585.760   ; wlj
+  C_3    CA     CT      1   119.700    585.760   ; wlj
+  C      CM     HC      1   119.700    292.880   ; 
+  C_2    CM     HC      1   119.700    292.880   ; 
+  C_3    CM     HC      1   119.700    292.880   ; 
+  CA     CM     CM      1   117.000    711.280   ; 
+  CA     CM     HC      1   123.300    292.880   ; 
+  CM     CM     CT      1   124.000    585.760   ; wlj
+  CM     C=     C=      1   124.000    585.760   ; wlj
+  CM     C=     C       1   118.700    585.760   ; wlj
+  CM     C=     C_2     1   118.700    585.760   ; wlj
+  CM     C=     C_3     1   118.700    585.760   ; wlj
+  CM     C=     CT      1   124.000    585.760   ; wlj
+  C=     C=     CT      1   124.000    585.760   ; wlj
+  CT     CM     C=      1   124.000    585.760   ; mwm
+  CM     CT     CM      1   112.400    527.184   ; mwm
+  CM     CT     OS      1   120.000    585.760   ; 
+  CM     CT     OH      1   109.500    418.400   ; 
+  CM     CM     HC      1   120.000    292.880   ; wlj
+  CM     CM     H4      1   119.700    292.880   ; 
+  CM     C=     HC      1   120.000    292.880   ; wlj
+  C=     CM     HC      1   120.000    292.880   ; wlj
+  C=     C=     HC      1   120.000    292.880   ; wlj
+  C      C=     HC      1   119.700    292.880   ; 
+  C_2    C=     HC      1   119.700    292.880   ;  
+  C_3    C=     HC      1   119.700    292.880   ;  
+  CT     C      HC      1   115.000    292.880   ; wlj
+  CT     C_2    HC      1   115.000    292.880   ; wlj
+  CA     C      HC      1   115.000    292.880   ; wlj
+  CA     C_2    HC      1   115.000    292.880   ; wlj
+  CT     CM     HC      1   117.000    292.880   ; wlj
+  HC     CM     HC      1   117.000    292.880   ; wlj
+  CT     CM     CT      1   130.000    585.760   ; wlj
+  CT     C+     CT      1   120.000   1445.990   ; wlj JACS 94, 4632 (1972)
+  CT     C+     HC      1   120.000   1204.992   ; wlj          -idem-
+  CT     CT     C+      1   105.000    527.184   ; wlj
+  HC     CT     C+      1   105.000    292.880   ; wlj
+  CM     CM     N*      1   121.200    585.760   ; 
+  CM     CM     NA      1   121.200    585.760   ; copy from above for CytH+ (jtr 5-14-91)
+  HC     CM     N*      1   119.100    292.880   ; 
+  HC     CM     NA      1   119.100    292.880   ; copy from above for CytH+ (jtr 5-14-91)
+  CA     CN     CB      1   122.700    711.280   ; TRP
+  CA     CN     NA      1   132.800    585.760   ; TRP(OL)
+  CB     CA     CW      1   106.400    527.184   ; 
+  CB     CA     CT      1   128.600    585.760   ; 
+  CB     CN     NA      1   104.400    585.760   ; 
+  HA     CQ     NC      1   115.450    292.880   ; 
+  H5     CQ     NC      1   115.450    292.880   ; 
+  NC     CQ     NC      1   129.100    585.760   ; 
+  HA     CR     NA      1   120.000    292.880   ; 
+  HA     CX     NA      1   120.000    292.880   ; jtr: HIP HD2-CD2-NE2
+  HA     CR     NB      1   120.000    292.880   ; 
+  HA     CK     N*      1   120.000    292.880   ; 
+  HA     CK     NA      1   120.000    292.880   ; wlj
+  HA     CK     NB      1   120.000    292.880   ; wlj
+  NA     CR     NA      1   120.000    585.760   ; HISP(OL)
+  NA     CR     NB      1   120.000    585.760   ; HIS(OL)
+  NA     CR     CT      1   125.000    585.760   ; wlj
+  NB     CR     CT      1   125.000    585.760   ; wlj
+  NA     CR     SY      1   120.000    585.760   ; wlj
+  NB     CR     SY      1   120.000    585.760   ; wlj
+  C      CT     CT      1   111.100    527.184   ; AA
+  C_2    CT     CT      1   111.100    527.184   ; AA
+  C_3    CT     CT      1   111.100    527.184   ; AA
+  C      CT     CT_2    1   111.100    527.184   ; AA
+  C_2    CT     CT_2    1   111.100    527.184   ; AA
+  C_3    CT     CT_2    1   111.100    527.184   ; AA
+  C      CT_2   CT      1   111.100    527.184   ; AA
+  C_2    CT_2   CT      1   111.100    527.184   ; AA
+  C_3    CT_2   CT      1   111.100    527.184   ; AA
+  CM     CT     CT      1   111.100    527.184   ; -idem- wlj
+  CW     CT     HC      1   109.500    292.880   ; jtr: HID HB-CB-CG
+  CV     CT     HC      1   109.500    292.880   ; jtr: HIE HB-CB-CG
+  CX     CT     HC      1   109.500    292.880   ; jtr: HIP HB-CB-CG
+  C      CT     HC      1   109.500    292.880   ; 
+  C_2    CT     HC      1   109.500    292.880   ; 
+  C_3    CT     HC      1   109.500    292.880   ; 
+  C      CT_2   HC      1   109.500    292.880   ; 
+  C_2    CT_2   HC      1   109.500    292.880   ; 
+  C_3    CT_2   HC      1   109.500    292.880   ; 
+  C      CT     N       1   110.100    527.184   ; AA     WORK DONE ON 6/23/82
+  C_2    CT     N       1   110.100    527.184   ; AA     WORK DONE ON 6/23/82
+  C_3    CT     N       1   110.100    527.184   ; AA     WORK DONE ON 6/23/82
+  C      CT_2   N       1   110.100    527.184   ; AA     WORK DONE ON 6/23/82
+  C_2    CT_2   N       1   110.100    527.184   ; AA     WORK DONE ON 6/23/82
+  C_3    CT_2   N       1   110.100    527.184   ; AA     WORK DONE ON 6/23/82
+  C      CT     NC      1   110.100    527.184   ; wj
+  C_2    CT     NC      1   110.100    527.184   ; wj
+  C_3    CT     NC      1   110.100    527.184   ; wj
+  C*     CT     CT      1   115.600    527.184   ; TRP(OL)
+  C*     CT     CT_2    1   115.600    527.184   ; TRP(OL)
+  C*     CT     HC      1   109.500    292.880   ; 
+  CS     CT     CT      1   115.600    527.184   ; wj
+  CS     CT     HC      1   109.500    292.880   ; wj
+  CA     CT     CT      1   114.000    527.184   ; PHE(OL)         SCH JPC  79,2379
+  CA     CT     CT_2    1   114.000    527.184   ; PHE(OL)         SCH JPC  79,2379
+  CA     CT     HC      1   109.500    292.880   ; 
+  CW     CT     CT      1   114.000    527.184   ; jtr: HID CA-CB-CG
+  CW     CT     CT_2    1   114.000    527.184   ; jtr: HID CA-CB-CG
+  CV     CT     CT      1   114.000    527.184   ; jtr: HIE CA-CB-CG
+  CV     CT     CT_2    1   114.000    527.184   ; jtr: HIE CA-CB-CG
+  CX     CT     CT      1   114.000    527.184   ; jtr: HIP CA-CB-CG
+  CX     CT     CT_2    1   114.000    527.184   ; jtr: HIP CA-CB-CG
+  CM     CT     HC      1   109.500    292.880   ; 
+  C=     CT     HC      1   109.500    292.880   ; wlj
+  CT     CT     CT      1   112.700    488.273   ; CHARMM 22 parameter file
+  CT_2   CT     CT      1   112.700    488.273   ; CHARMM 22 parameter file
+  CT     CT_2   CT      1   112.700    488.273   ; CHARMM 22 parameter file
+  CT     CT     CT_3    1   112.700    488.273   ; CHARMM 22 parameter file
+  C3     CT     C3      1   109.500    334.720   ; 
+  C3     CT     C       1   109.500    527.184   ; from CA-CT-CT 
+  CT_2   CT     HC      1   110.700    313.800   ; CHARMM 22 parameter file
+  CT     CT_2   HC      1   110.700    313.800   ; CHARMM 22 parameter file
+  CT     CT     HC      1   110.700    313.800   ; CHARMM 22 parameter file
+  CT     CT_3   HC      1   110.700    313.800   ; CHARMM 22 parameter file
+  CT_3   CT     HC      1   110.700    313.800   ; CHARMM 22 parameter file
+  CT     CT_4   HC      1   110.700    313.800   ; Trifluoroethanol
+  CT     CT     N       1   109.700    669.440   ; ALA    JACS 94, 2657
+  CT     CT_2   N       1   109.700    669.440   ; ALA    JACS 94, 2657
+  CT     CT_3   N       1   109.700    669.440   ; Pro CD
+  CT     CT_3   NT      1   109.700    669.440   ; Pro CD
+  CT     CT     N*      1   109.500    418.400   ; 
+  CT     CT     N2      1   111.200    669.440   ; ARG   JCP 76, 1439
+  C      CT     N3      1   111.200    669.440   ; Amino terminal residues
+  C_2    CT     N3      1   111.200    669.440   ; Amino terminal residues
+  C_3    CT     N3      1   111.200    669.440   ; Amino terminal residues
+  C      CT_2   N3      1   111.200    669.440   ; Amino terminal residues
+  C_2    CT_2   N3      1   111.200    669.440   ; Amino terminal residues
+  C_3    CT_2   N3      1   111.200    669.440   ; Amino terminal residues
+  C      CT     NT      1   111.200    669.440   ; wlj
+  C      CT_2   NT      1   111.200    669.440   ; wlj
+  C_2    CT     NT      1   111.200    669.440   ; wlj
+  C_3    CT     NT      1   111.200    669.440   ; wlj
+  CA     CT     N       1   109.700    669.440   ; 
+  CA     CT     NT      1   111.200    669.440   ; wlj
+  CA     CT     NA      1   111.200    669.440   ; wlj
+  CT     CT     NA      1   111.200    669.440   ; 
+  CT     CA     N       1   109.700    669.440   ; MDDR 
+  CT     CT     N3      1   111.200    669.440   ; LYS(OL)   JCP 76, 1439
+  CT     CT_2   N3      1   111.200    669.440   ; LYS(OL)   JCP 76, 1439
+  CT     CT_3   N3      1   111.200    669.440   ;  CD     
+  CT     CT     OH      1   109.500    418.400   ; 
+  CT_2   CT     OH      1   109.500    418.400   ; 
+  CT     CT_4   OH      1   109.500    418.400   ; Trifluoroethanol
+  CA     CT     OH      1   109.500    418.400   ; wlj
+  CT     CT     OS      1   109.500    418.400   ; 
+  CA     CT     OS      1   109.500    418.400   ; 
+  CT     CT     S       1   114.700    418.400   ; CYX            SCHERAGA  JPC 79,1428
+  CT_2   CT     S       1   114.700    418.400   ; CYX            SCHERAGA  JPC 79,1428
+  CT     CT     SH      1   108.600    418.400   ; CYS
+  CT_2   CT     SH      1   108.600    418.400   ; CYS
+  CA     CT     S       1   114.700    418.400   ; wlj
+  CW     CT     S       1   114.700    418.400   ; wlj
+  CT     NT     H       1   109.500    292.880   ; 
+  CT_3   NT     H       1   109.500    292.880   ; 
+  CT_2   NT     H       1   109.500    292.880   ; 
+  CA     NT     H       1   111.000    292.880   ; wlj/rr anilines
+  CA     NT     CT      1   109.500    418.400   ; -idem-
+  CT     NT     CT      1   107.200    433.462   ; wlj - MM3 based JACS 112, 8314 (90)
+  CT     NT     C3      1   107.200    433.462   ; -idem-
+  C3     NT     C3      1   107.200    433.462   ; -idem-
+  HC     CT     HC      1   107.800    276.144   ; CHARMM 22 parameter file
+  HC     CT_2   HC      1   107.800    276.144   ; CHARMM 22 parameter file
+  HC     CT_3   HC      1   107.800    276.144   ; CHARMM 22 parameter file
+  HC     CT_4   HC      1   107.800    276.144   ; Trifluoroethanol
+  CY     CY     HC      1   117.200    313.800   ; cyclopropanes - wlj  10/97
+  CY     CY     CY      1    60.000    251.040   ; -idem-
+  CY     CY     CT      1   117.200    313.800   ; -idem-
+  CY     CT     HC      1   110.700    313.800   ; -idem-
+  HC     CY     HC      1   114.300    292.880   ; -idem-
+  HC     CY     CT      1   114.300    292.880   ; -idem-
+  CY     CY     NC      1    89.000    669.440   ; 
+  HC     CY     NC      1   109.500    292.880   ; small rings
+  HC     CY     N       1   108.000    292.880   ; -idem-
+  CY     CY     N       1   126.000    313.800   ; -idem-
+  HC     CY     S       1   108.000    313.800   ; -idem-
+  CY     CY     S       1   128.000    460.240   ; -idem-
+  CY     N      C       1   128.000    460.240   ; -idem-
+  CY     N      H       1   113.000    334.720   ; -idem-
+  CY     S      CT      1    94.000    518.816   ; -idem- 
+  HC     CT     N       1   109.500    292.880   ; 
+  HC     CT_2   N       1   109.500    292.880   ; 
+  HC     CT_3   N       1   109.500    292.880   ; 
+  HC     CT_3   NT      1   109.500    292.880   ; 
+  HC     CT     N*      1   109.500    292.880   ; 
+  HC     CT     NA      1   109.500    292.880   ; copy from above for CytH+ (jtr 5-14-91)
+  HC     CT     N2      1   109.500    292.880   ; 
+  HC     CT     N3      1   109.500    292.880   ; 
+  HC     CT_2   N3      1   109.500    292.880   ; 
+  HC     CT_3   N3      1   109.500    292.880   ; 
+  HC     CT     NT      1   109.500    292.880   ; JACS 115, 9620 (93)
+  HC     CT_2   NT      1   109.500    292.880   ; 
+  HC     CT     NC      1   109.500    292.880   ; 
+  HC     CT     OH      1   109.500    292.880   ; 
+  C      CT     OH      1   109.500    418.400   ; 
+  C_2    CT     OH      1   109.500    418.400   ; 
+  C_3    CT     OH      1   109.500    418.400   ; 
+  HC     CT_4   OH      1   109.500    292.880   ; fluoroethanol
+  HC     CT     OS      1   109.500    292.880   ; SUG
+  HC     CT     S       1   109.500    292.880   ; 
+  HC     CT     P       1   109.500    343.088   ; wlj 11/95 MM3 based JACS 114, 8536 (92)
+  CT     CT     P       1   109.500    359.824   ; -idem-
+  CA     CT     P       1   109.500    359.824   ; -idem-
+  CT     CT     P+      1   109.500    359.824   ; wlj 9/97
+  CT     P+     CT      1   109.500    376.560   ; -idem- AMBER OS-P-OS
+  HC     CT     P+      1   109.500    343.088   ; -idem-
+  HC     CT     SH      1   109.500    292.880   ; 
+  N*     CT     OS      1   109.500    418.400   ; 
+  CW     CW     NB      1   120.000    585.760   ; 
+  HA     CV     NB      1   120.000    292.880   ; 
+  C*     CW     HA      1   120.000    292.880   ; 
+  C*     CW     NA      1   108.700    585.760   ; TRP(OL)
+  H4     CW     NA      1   120.000    292.880   ; 
+  HA     CA     NA      1   120.000    292.880   ; 
+  C      N      C3      1   121.900    418.400   ; 
+  C      N      CT      1   121.900    418.400   ; 
+  C      N      CT_2    1   121.900    418.400   ; 
+  C      N      CT_3    1   121.900    418.400   ; 
+  C      N      CA      1   121.900    418.400   ; wlj
+  C      N      H       1   119.800    292.880   ; AA(OL)
+  C3     N      H       1   118.400    317.984   ; 
+  CT     N      CT      1   118.000    418.400   ; PRO(OL)         DETAR JACS 99,1232
+  CT_2   N      CT      1   118.000    418.400   ; PRO(OL)         DETAR JACS 99,1232
+  CT_2   N      CT_2    1   118.000    418.400   ; PRO(OL)         DETAR JACS 99,1232
+  CT_3   N      CT      1   118.000    418.400   ; PRO(OL)         DETAR JACS 99,1232
+  CT_3   N      CT_2    1   118.000    418.400   ; PRO(OL)         DETAR JACS 99,1232
+  CT_3   NT     CT_2    1   118.000    418.400   ; PRO(OL)         DETAR JACS 99,1232
+  CA     N      CT      1   118.000    418.400   ; wj
+  CA     NC     CT      1   118.000    418.400   ; wj
+  CT     N      H       1   118.400    317.984   ; 
+  CT_2   N      H       1   118.400    317.984   ; 
+  CT_3   N      H       1   118.400    317.984   ; 
+  CT_3   N      H3      1   118.400    317.984   ; 
+  H      N      H       1   120.000    292.880   ; ADE,CYT,GUA,GLN,ASN     **
+  H      N2     H       1   113.000    292.880   ; wlj 
+  H3     N      H3      1   120.000    292.880   ; ADE,CYT,GUA,GLN,ASN     **
+  C      N*     CM      1   121.600    585.760   ;  
+  C_2    N*     CM      1   121.600    585.760   ;    
+  C_3    N*     CM      1   121.600    585.760   ;    
+  C      NA     CM      1   121.600    585.760   ; copy from above for CytH+ (jtr 5-14-91)
+  C_2    NA     CM      1   121.600    585.760   ; copy from above for CytH+ (jtr 5-14-91)
+  C_3    NA     CM      1   121.600    585.760   ; copy from above for CytH+ (jtr 5-14-91)
+  C      N*     CT      1   117.600    585.760   ; 
+  C_2    N*     CT      1   117.600    585.760   ; 
+  C_3    N*     CT      1   117.600    585.760   ; 
+  C      N*     H       1   119.200    292.880   ; 
+  C_2    N*     H       1   119.200    292.880   ; 
+  C_3    N*     H       1   119.200    292.880   ; 
+  C3     N*     CB      1   125.800    585.760   ; 9 methylated guan,aden
+  C3     N*     CK      1   128.800    585.760   ; 
+  CM     N*     CT      1   121.200    585.760   ; 
+  CM     N*     H       1   119.200    292.880   ; 
+  CM     NA     H       1   119.200    292.880   ; copy from above for CytH+ (jtr 5-14-91)
+  C3     N2     CA      1   123.200    418.400   ; ARG(OL)
+  CA     N2     CA      1   123.200    418.400   ;  
+  CA     N2     CT      1   123.200    418.400   ; ARG(OL)
+  CA     N2     CX      1   123.200    418.400   ; 
+  N2     CX     NZ      1   180.000    585.760   ; 
+  CA     N2     H       1   120.000    292.880   ; ARG(OL)
+  CQ     N2     H       1   120.000    292.880   ; wlj
+  CA     N2     H3      1   120.000    292.880   ; ADE,CYT,GUA,ARG
+  CT     N2     H3      1   118.400    292.880   ; ARG(OL)
+  CT     N2     H       1   118.400    292.880   ; 
+  H3     N2     H3      1   120.000    292.880   ; ADE,CYT,GUA,GLN,ASN,ARG
+  C3     N3     H3      1   109.500    292.880   ; 
+  CT     N3     H3      1   109.500    292.880   ; LYS
+  CT_2   N3     H3      1   109.500    292.880   ; LYS
+  CT     N3     H       1   109.500    292.880   ; LYS
+  CT_3   N3     H3      1   109.500    292.880   ; Pro CD
+  CT_3   N3     H       1   109.500    292.880   ; Pro CD
+  H3     N3     H3      1   109.500    292.880   ; LYS
+  H      N3     H       1   109.500    292.880   ; LYS
+  CT     N3     CT      1   113.000    418.400   ; proline j.phys chem 1979 p 2361
+  CT_2   N3     CT_3    1   113.000    418.400   ; proline j.phys chem 1979 p 2361
+  CT_2   N3     CT      1   113.000    418.400   ; proline j.phys chem 1979 p 2361
+  C      NA     C       1   126.400    585.760   ; URA
+  C      NA     C_2     1   126.400    585.760   ; URA
+  C      NA     C_3     1   126.400    585.760   ; URA
+  C_2    NA     C_2     1   126.400    585.760   ; URA
+  C_2    NA     C_3     1   126.400    585.760   ; URA
+  C_3    NA     C_3     1   126.400    585.760   ; URA
+  C      N      C       1   126.400    585.760   ; wlj
+  C      NA     CA      1   125.200    585.760   ; GUA
+  C_2    NA     CA      1   125.200    585.760   ; GUA
+  C_3    NA     CA      1   125.200    585.760   ; GUA
+  C      N      CQ      1   125.200    585.760   ; wj
+  C      NA     H       1   116.800    292.880   ; GUA,URA(2)
+  C_2    NA     H       1   116.800    292.880   ; GUA,URA(2)
+  C_3    NA     H       1   116.800    292.880   ; GUA,URA(2)
+  CA     NA     H       1   118.000    292.880   ; GUA
+  CQ     N      H       1   118.000    292.880   ; wlj
+  CN     NA     CW      1   111.600    585.760   ; TRP(OL)
+  CN     NA     H       1   123.100    292.880   ; TRP
+  CR     NA     H       1   120.000    292.880   ; HIS(OL)
+  CW     NA     H       1   120.000    292.880   ; HIS(OL)
+  CX     NA     H       1   120.000    292.880   ; jtr HIP
+  CB     N*     CK      1   105.400    585.760   ; 
+  CB     N*     CT      1   125.800    585.760   ; 
+  CB     N*     H       1   125.800    251.040   ; 
+  CK     N*     CT      1   128.800    585.760   ; 
+  CK     N*     H       1   128.800    251.040   ; 
+  CB     NA     CK      1   105.400    585.760   ; wlj
+  CB     NA     CT      1   125.800    585.760   ; wlj
+  CB     NA     H       1   125.800    251.040   ; wlj
+  CK     NA     CT      1   128.800    585.760   ; wlj
+  CK     NA     H       1   128.800    251.040   ; wlj
+  CB     NB     CK      1   103.800    585.760   ; 
+  CR     NB     CV      1   110.000    585.760   ; HIS(OL) wlj 1/97
+  CR     NB     CB      1   110.000    585.760   ; wlj
+  CR     NB     CW      1   110.000    585.760   ; 
+  C      NC     CA      1   120.500    585.760   ; CYT
+  C_2    NC     CA      1   120.500    585.760   ; CYT
+  C_3    NC     CA      1   120.500    585.760   ; CYT
+  CA     NC     CB      1   112.200    585.760   ; GUA
+  CA     NC     CQ      1   118.600    585.760   ; 
+  CQ     NC     CQ      1   118.600    585.760   ; wlj 1,3,5-triazine
+  CB     NC     CQ      1   111.000    585.760   ; 
+  CR     NC     CQ      1   111.000    585.760   ; wj
+  C3     NT     H       1   108.100    361.498   ; wlj MM3 based
+  H      NT     H       1   106.400    364.845   ; wlj MM3 based
+  H      N      OH      1   110.200    292.880   ; wlj
+  C      N      OH      1   115.700    384.928   ; wlj
+  N      OH     HO      1   105.400    410.032   ; wlj
+  C      OH     HO      1   113.000    292.880   ; TYR(PHENOL)     HARMONY MEOH
+  CA     OH     HO      1   113.000    292.880   ; 
+  CM     OH     HO      1   109.000    292.880   ; wj
+  C3     OH     HO      1   108.500    460.240   ; SUG,SER(OL,mod)
+  CT     OH     HO      1   108.500    460.240   ;   
+  CT_4   OH     HO      1   108.500    460.240   ; Trifluoroethanol
+  HO     OH     P       1   108.500    376.560   ; SUG(OL)
+  C      OS     C3      1   116.900    694.544   ; 
+  C_2    OS     C3      1   116.900    694.544   ; 
+  O      C      OS      1   123.400    694.544   ; J.Comp.Chem.1990,11,1181 for SKF8
+  O      C_2    OS      1   123.400    694.544   ; J.Comp.Chem.1990,11,1181 for SKF8
+  O_2    C_2    OS      1   123.400    694.544   ; J.Comp.Chem.1990,11,1181 for SKF8
+  C      OS     CT      1   116.900    694.544   ; -idem-
+  C_2    OS     CT      1   116.900    694.544   ; -idem-
+  OS     C      CT      1   111.400    677.808   ; -idem-
+  OS     C_2    CT      1   111.400    677.808   ; -idem-
+  OS     C      CT_2    1   111.400    677.808   ; -idem-
+  OS     C      CA      1   111.400    677.808   ; wlj
+  C      OS     CA      1   116.900    694.544   ; wlj
+  C_2    OS     CA      1   116.900    694.544   ; wlj
+  OS     CO     OH      1   111.550    774.876   ; Ha,CarbRes 180,207(88)Merz,JCC 15,1019 (94)
+  OS     CO     OS      1   111.550    774.876   ; ACETAL- wlj 2/93
+  C3     OS     CO      1   113.000    836.800   ; -idem-
+  C3     CO     OS      1   109.500    669.440   ; -idem-
+  C3     CO     C3      1   109.500    334.720   ; -idem-
+  OS     CO     CT      1   109.500    418.400   ; hexopyranoses :  CT-CT-OS- wd 3/95 Glucose
+  CO     CT     CT      1   112.700    488.273   ; -idem-            :  CT-CT-CT- wd 6/95 Glucose
+  CT     CO     OH      1   109.500    418.400   ; -idem-            :  CT-CT-OH- wd 6/95 Glucose
+  CT     CO     HC      1   110.700    313.800   ; -idem-            :  CT-CT-HC- wd 6/95 Glucose
+  CO     OH     HO      1   108.500    460.240   ; -idem-            :  CT-OH-HO- wd 6/95 Glucose
+  OS     CO     HC      1   109.500    292.880   ; -idem-            :  HC-CT-OS- wd 6/95 Glucose
+  CO     OS     CT      1   109.500    502.080   ; -idem-            :  CT-OS-CT- wd 6/95 Glucose
+  CO     CT     HC      1   110.700    313.800   ; -idem-            :  CT-CT-HC- wd 6/95 Glucose
+  CO     CT     OH      1   109.500    418.400   ; -idem-            :  CT-CT-OH- wd 6/95 Glucose
+  OH     CO     HC      1   109.500    292.880   ; -idem-            :  HC-CT-OS- wd 6/95 Glucose
+  HC     CO     HC      1   109.500    276.144   ; -idem-            :  HC-CT-HC- wd 6/95
+  CA     OS     NB      1   108.900    585.760   ;  
+  CA     OS     CA      1   111.000    627.600   ; wlj 9/97 
+  CA     OS     P       1   120.500    836.800   ; mll
+  C3     OS     P       1   120.500    836.800   ; DMPhos based
+  CT     OS     CT      1   109.500    502.080   ; 
+  CT     OS     CA      1   111.000    627.600   ; wlj 9/97
+  CT     OS     CM      1   111.000    627.600   ; wlj
+  CT     OS     P       1   120.500    836.800   ; 
+  O2     P      O2      1   119.900   1171.520   ; SUG(OL)
+  O2     P      OH      1   108.230    376.560   ; SUG(OL)
+  O2     P      OS      1   108.230    836.800   ; SUG(OL)
+  OH     P      OS      1   102.600    376.560   ; SUG(OL)
+  OS     P      OS      1   102.600    376.560   ; SUG(OL)
+  O      P      OH      1   108.230    836.800   ; SUG(OL)
+  O      P      OS      1   108.230    836.800   ; SUG(OL)
+  OH     P      OH      1   102.600    376.560   ; SUG(OL)
+  CT     P      OS      1   109.500    376.560   ; wlj 11/95
+  CT     P      O2      1   109.500    376.560   ; wlj 11/95
+  CT     P      O       1   109.500    376.560   ; wlj 11/95
+  CA     P      OS      1   109.500    376.560   ; wlj 11/95
+  CA     P      OH      1   109.500    376.560   ; wlj 11/95
+  CA     P      O       1   109.500    376.560   ; wlj 11/95
+  C3     S      LP      1    96.700   1255.200   ; 
+  C3     S      S       1   103.700    569.024   ; CYX(OL)        SCHERAGA  JPC 79,1428
+  CT     S      CT      1    98.900    518.816   ; MET(OL)
+  CR     S      CW      1    90.000    619.232   ; wlj
+  CW     S      CW      1    97.000    619.232   ; wlj
+  CT     S      LP      1    96.700   1255.200   ; 
+  CT     S      S       1   103.700    569.024   ; CYX(OL)        SCHERAGA  JPC 79,1428
+  LP     S      LP      1   160.000      0.000   ; 
+  LP     S      S       1    96.700   1255.200   ; 
+  C3     SH     HS      1    96.000    368.192   ; CYS(OL)
+  C3     SH     LP      1    96.700   1255.200   ; 
+  CT     SH     HS      1    96.000    368.192   ; CYS(OL)
+  CA     SH     HS      1    96.000    418.400   ; wlj
+  CT     SH     LP      1    96.700   1255.200   ; 
+  HS     SH     HS      1    92.070    292.880   ; 
+  HS     SH     LP      1    96.700   1255.200   ; 
+  LP     SH     LP      1   160.000      0.000   ; 
+  P      OS     P       1   120.500    836.800   ; 
+  CA     CT     CA      1   109.500    334.720   ; -idem-
+  CA     CT     C       1   112.000    527.184   ; wlj
+  CA     CT     C_2     1   112.000    527.184   ; wlj
+  CA     CT     C_3     1   112.000    527.184   ; wlj
+  CT     CA     NA      1   120.000    585.760   ; Added DSM (from CT-CC-NA)
+  CT     CA     N2      1   120.100    585.760   ; 
+  N2     CA     N       1   120.000    585.760   ; 
+  CA     NA     CA      1   125.200    585.760   ; Added DSM (from C-NA-CA)
+  CA     CA     NB      1   108.700    585.760   ; Added DSM (from CA-CA-NA)
+  NA     CA     NB      1   123.300    585.760   ; Added DSM (from NA-CA-NC)
+  CA     NB     CA      1   125.200    585.760   ; Added DSM (from C-NA-CA)
+  HA     CA     NB      1   119.100    292.880   ; Added DSM (from HC-CM-NA)
+  CA     CA     N       1   120.000    585.760   ; Added DSM (from CA-CA-NA)
+  CA     N      H       1   119.800    292.880   ; Added DSM (from C-N-H)
+  CB     CT     HC      1   109.500    292.880   ; Added DSM (from CA-CT-HC)
+  CA     CB     CT      1   120.000    585.760   ; Added DSM (from CA-CA-CT)
+  CB     CA     NA      1   108.700    585.760   ; Added DSM (from CA-CA-NA)
+  CB     CB     CT      1   120.000    585.760   ; Added DSM (from CA-CA-CT)
+  CB     CB     NB      1   110.400    585.760   ; GUA,ADE
+  CB     CT     CT      1   114.000    527.184   ; Added DSM (from CA-CT-CT)
+  CT     CT     F       1   109.500    418.400   ; PAK F-CT-HC (emd 5-09-94)
+  CT_4   CT     F       1   109.500    418.400   ; Trifluoroethanol
+  CA     CT     F       1   109.500    418.400   ; wlj 
+  F      CT     F       1   109.100    644.336   ; PAK F-CT-F  (emd 5-09-94)
+  HC     CT     F       1   107.000    334.720   ; wlj
+  CT     C      C       1   117.200    669.440   ; (JP 1-6-91)  SKF8
+  CT     C      C_2     1   117.200    669.440   ; (JP 1-6-91)  SKF8
+  CT     C      C_3     1   117.200    669.440   ; (JP 1-6-91)  SKF8
+  CT     C_2    C       1   117.200    669.440   ; (JP 1-6-91)  SKF8
+  CT     C_2    C_2     1   117.200    669.440   ; (JP 1-6-91)  SKF8
+  CT     C_2    C_3     1   117.200    669.440   ; (JP 1-6-91)  SKF8
+  C      C      O       1   121.400    669.440   ; ketone (JP 1-5-91) SKF8
+  C      C      O_2     1   121.400    669.440   ; ketone (JP 1-5-91) SKF8
+  C      C      O_3     1   121.400    669.440   ; ketone (JP 1-5-91) SKF8
+  C      C_2    O_2     1   121.400    669.440   ; ketone (JP 1-5-91) SKF8
+  C_2    C      O       1   121.400    669.440   ; ketone (JP 1-5-91) SKF8
+  C_2    C      O_2     1   121.400    669.440   ; ketone (JP 1-5-91) SKF8
+  C_2    C      O_3     1   121.400    669.440   ; ketone (JP 1-5-91) SKF8
+  C_2    C_2    O_2     1   121.400    669.440   ; ketone (JP 1-5-91) SKF8
+  C_3    C      O       1   121.400    669.440   ; ketone (JP 1-5-91) SKF8
+  C_3    C      O_2     1   121.400    669.440   ; ketone (JP 1-5-91) SKF8
+  C_3    C      O_3     1   121.400    669.440   ; ketone (JP 1-5-91) SKF8
+  C_3    C_2    O_2     1   121.400    669.440   ; ketone (JP 1-5-91) SKF8
+  C      C      N       1   116.600    585.760   ; (JP 1-5-91) SKF8
+  C_2    C      N       1   116.600    585.760   ; (JP 1-5-91) SKF8
+  C_3    C      N       1   116.600    585.760   ; (JP 1-5-91) SKF8
+  C      C_2    N       1   116.600    585.760   ; (JP 1-5-91) SKF8
+  C_2    C_2    N       1   116.600    585.760   ; (JP 1-5-91) SKF8
+  C_3    C_2    N       1   116.600    585.760   ; (JP 1-5-91) SKF8
+  OY     SY     N       1   107.000   1004.160   ; 
+  OY     SY     OY      1   119.000    870.272   ; 
+  OY     SZ     CT      1   107.000    619.232   ; 
+  OY     SY     CT      1   108.900    619.232   ; 
+  OY     SY     CA      1   107.200    619.232   ; 
+  N      SY     CA      1   103.000    836.800   ; 
+  SY     CA     CA      1   119.400    711.280   ; 
+  SY     CT     HC      1   109.500    292.880   ; 
+  SZ     CT     HC      1   109.500    292.880   ; 
+  CT     SY     CT      1   102.000    518.816   ;   
+  CA     SY     CT      1   102.000    518.816   ; 
+  CR     SY     CT      1   102.000    518.816   ; 
+  CU     CT     SY      1   119.400    711.280   ; 
+  CT     SZ     CT      1    96.000    518.816   ; 
+  CT     CT     SY      1   108.600    418.400   ; 
+  CT     CT     SZ      1   108.600    418.400   ; 
+  N      SY     CT      1   103.000    836.800   ; 
+  SY     N      CT      1   120.000    418.400   ; 
+  H      N      SY      1   111.000    836.800   ; 
+  OS     C      N       1   111.400    677.808   ; bhap,                   copy from OS-C-CT      rcr HIVRT
+  OS     C_2    N       1   111.400    677.808   ; bhap,                   copy from OS-C-CT      rcr HIVRT
+  CT     NT     SY      1   108.600    418.400   ; bhap,                   copy from CT-CT-SY      rcr HIVRT
+  C      CT     F       1   109.500    418.400   ; bhap,                   copy from CT-CT-F       rcr HIVRT
+  C_2    CT     F       1   109.500    418.400   ; bhap,                   copy from CT-CT-F       rcr HIVRT
+  C_3    CT     F       1   109.500    418.400   ; bhap,                   copy from CT-CT-F       rcr HIVRT
+  SY     CT     F       1   109.500    418.400   ; bhap,                   copy from CT-CT-F       rcr HIVRT
+  SY     NT     H       1   115.000    292.880   ; bhap,                   adjusted from CT-NT-H   rcr HIVRT
+  C      CW     NA      1   120.000    711.280   ; bhap,                   copy from C-CA-CA      rcr HIVRT
+  C_2    CW     NA      1   120.000    711.280   ; bhap,                   copy from C-CA-CA      rcr HIVRT
+  C_3    CW     NA      1   120.000    711.280   ; bhap,                   copy from C-CA-CA      rcr HIVRT
+  NT     C      CW      1   116.000    585.760   ; bhap,                   copy from CT-C-CT      rcr HIVRT
+  C      CW     CS      1   120.000    711.280   ; bhap,                   copy from C-CA-CA      rcr HIVRT
+  C_2    CW     CS      1   120.000    711.280   ; bhap,                   copy from C-CA-CA      rcr HIVRT
+  C_3    CW     CS      1   120.000    711.280   ; bhap,                   copy from C-CA-CA      rcr HIVRT
+  CB     CS     HA      1   120.000    292.880   ; bhap,                   copy from CB-CA-HA      rcr HIVRT
+  CW     C      O       1   120.400    669.440   ; bhap,                   copy from CA-C-O       rcr HIVRT
+  CW     C      O_2     1   120.400    669.440   ; bhap,                   copy from CA-C-O       rcr HIVRT
+  CW     C      O_3     1   120.400    669.440   ; bhap,                   copy from CA-C-O       rcr HIVRT
+  CW     C_2    O_2     1   120.400    669.440   ; bhap,                   copy from CA-C-O       rcr HIVRT
+  C      NT     CT      1   111.100    527.184   ; bhap,                   copy from C-CT-CT      rcr HIVRT
+  C_2    NT     CT      1   111.100    527.184   ; bhap,                   copy from C-CT-CT      rcr HIVRT
+  C_3    NT     CT      1   111.100    527.184   ; bhap,                   copy from C-CT-CT      rcr HIVRT
+  C      CT     C       1   111.100    527.184   ; lac,                    copy from C-CT-CT      rcr HIVRT
+  C_2    CT     C       1   111.100    527.184   ; lac,                    copy from C-CT-CT      rcr HIVRT
+  C_3    CT     C       1   111.100    527.184   ; lac,                    copy from C-CT-CT      rcr HIVRT
+  C      CT     OS      1   109.500    418.400   ; lac,                    copy from CT-CT-OS      rcr HIVRT
+  C_2    CT     OS      1   109.500    418.400   ; lac,                    copy from CT-CT-OS      rcr HIVRT
+  C_3    CT     OS      1   109.500    418.400   ; lac,                    copy from CT-CT-OS      rcr HIVRT
+  N      CT     OS      1   109.500    418.400   ; lac,                    copy from CT-CT-OS      rcr HIVRT
+  NT     C      O       1   120.400    669.440   ; nev,                    copy from CT-C-O       rcr HIVRT
+  NT     C      O_2     1   120.400    669.440   ; nev,                    copy from CT-C-O       rcr HIVRT
+  NT     C      O_3     1   120.400    669.440   ; nev,                    copy from CT-C-O       rcr HIVRT
+  NT     C_2    O_2     1   120.400    669.440   ; nev,                    copy from CT-C-O       rcr HIVRT
+  NT     C      CT      1   116.000    585.760   ; nev,                    copy from CT-C-CT      rcr HIVRT
+  NT     C_2    CT      1   116.000    585.760   ; nev,                    copy from CT-C-CT      rcr HIVRT
+  CA     NT     C       1   112.000    527.184   ; nev,                    copy from CA-CT-C       rcr HIVRT
+  CA     NT     C_2     1   112.000    527.184   ; nev,                    copy from CA-CT-C       rcr HIVRT
+  CA     NT     C_3     1   112.000    527.184   ; nev,                    copy from CA-CT-C       rcr HIVRT
+  CA     NT     SY      1   108.600    418.400   ; nev,                    copy from CT-CT-SY      rcr HIVRT
+  OY     SY     NT      1   108.900    619.232   ; nev,                    copy from OY-SY-CT      rcr HIVRT
+  NT     SY     CT      1   102.000    518.816   ; nev,                    copy from CT-SY-CT      rcr HIVRT
+  NT     CT     S       1   114.700    418.400   ; nev,                    copy from CT-CT-S       rcr HIVRT
+  HC     CY     NT      1   114.300    292.880   ; nev,                    copy from HC-CY-CT      rcr HIVRT
+  CY     CY     NT      1   117.200    313.800   ; nev,                    copy from CY-CY-CT      rcr HIVRT
+  CA     NT     CY      1   109.500    418.400   ; nev,                    copy from CA-NT-CT      rcr HIVRT
+  NC     CA     Cl      1   120.000    627.600   ; nev,                    copy from CA-CA-Cl      rcr HIVRT
+  CA     NT     CA      1   109.500    334.720   ; nev,                    copy from CA-CT-CA      rcr HIVRT
+  NC     CA     NT      1   116.000    585.760   ; nev,                    copy from NC-CA-CT      rcr HIVRT
+  CM     CM     CY      1   124.000    585.760   ; hept,                   copy from CM-CM-CT      rcr HIVRT
+  CM     CY     HC      1   109.500    292.880   ; hept,                   copy from CM-CT-HC      rcr HIVRT
+  CM     CY     CY      1   114.000    527.184   ; hept,                   copy from CA-CT-CT      rcr HIVRT
+  C      CM     CY      1   119.700    585.760   ; hept,                   copy from C-CM-CT      rcr HIVRT
+  C_2    CM     CY      1   119.700    585.760   ; hept,                   copy from C-CM-CT      rcr HIVRT
+  C_3    CM     CY      1   119.700    585.760   ; hept,                   copy from C-CM-CT      rcr HIVRT
+  N*     CM     CT      1   120.000    585.760   ; hept,                   copy from PHE(OL)       rcr HIVRT
+  NA     CM     CT      1   120.000    585.760   ; hept,                   copy from PHE(OL)       rcr HIVRT
+  S      CM     CM      1   119.400    711.280   ; hept,                   copy from SY-CA-CA      rcr HIVRT
+  S      CM     N*      1   119.400    711.280   ; hept,                   copy from SY-CA-CA      rcr HIVRT
+  S      CM     NA      1   119.400    711.280   ; hept,                   copy from SY-CA-CA      rcr HIVRT
+  N*     CM     OS      1   120.000    585.760   ; hept,                   copy from CA-CA-OS      rcr HIVRT
+  NA     CM     OS      1   120.000    585.760   ; hept,                   copy from CA-CA-OS      rcr HIVRT
+  CA     S      CM      1   104.200    518.816   ; hept,                   adjusted from CT-S-CT  rcr HIVRT
+  CM     OS     CA      1   111.000    627.600   ; hept,                   copy from CT-S-CT      rcr HIVRT
+  CM     CT     CA      1   109.500    334.720   ; hept,                   copy from CA-CT-CA      rcr HIVRT
+  S      CA     CA      1   119.400    711.280   ; thioanisole             copy from SY-CA-CA      rcr HIVRT
+  P      CA     CA      1   119.400    711.280   ; 
+  CA     S      CT      1   104.200    518.816   ; thioanisole             adjusted from CT-S-CT  rcr HIVRT
+  O2     S      CT      1   107        400
