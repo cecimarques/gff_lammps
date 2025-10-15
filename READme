@@ -36,7 +36,7 @@ special_bonds   lj 0 0 0.5 coul 0 0 0.5
 kspace_style    pppm 1e-6
 
 d) Finally, for impropers, the code simply outputs the list of "atom type within OPLS-AA nomenclature" underlying each improper declared below the "Impropers" section in the 1-molecule LAMMPS data file gotten from LigParGen. It is responsibility of the user to see, based on the sequence of atom types underlying each improper, if it is necessary to set an improper potential for any of the impropers. Furthermore, it is worth mentioning that GROMACS advises implementing improper potentials as dihedral potentials and the corresponding potential form prescribed can be found in the original ffbonded.itp file in the GROMACS tree. You may choose to set them as improper potentials instead within LAMMPS (up to you)!
- ----------------------------------------------------------------------------------------------------------------------------------------
+ -----------------------------------------------------------------------------------------------------------------------------
 
 Hope you can find it useful !
 
